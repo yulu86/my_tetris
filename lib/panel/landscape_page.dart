@@ -5,8 +5,11 @@ class LandscapePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('LandscapePage'),
+    var height = MediaQuery.of(context).size.height;
+    height -= MediaQuery.of(context).viewInsets.vertical;
+
+    return SizedBox.expand(
+      child: Container(),
     );
   }
 }
