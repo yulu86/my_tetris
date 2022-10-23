@@ -36,9 +36,14 @@ class MyApp extends StatelessWidget {
       supportedLocales: AppLocalizations.supportedLocals,
       // 检测当前语言
       localeResolutionCallback: AppLocalizations.getMatchedSupportedLocale,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
+
+const screenBorderWidth = 3.0;
+
+const backgroundColor = Color(0xffefcc19);
 
 class _HomePage extends StatelessWidget {
   @override
