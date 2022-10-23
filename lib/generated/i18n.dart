@@ -48,6 +48,7 @@ class AppLocalizations {
     return true;
   }
 
+  String get tetris => _message("tetris");
   String get cleans => _message("cleans");
   String get level => _message("level");
   String get next => _message("next");
